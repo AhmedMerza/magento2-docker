@@ -1,0 +1,13 @@
+<div id="ahmed-popup" style="display:none; position:fixed; bottom:20px; right:20px; background:#fff; border:1px solid #ccc; padding:20px; z-index:9999;">
+    <p>This is a custom popup from Ahmed!</p>
+    <button onclick="document.getElementById('ahmed-popup').style.display='none'">Close</button>
+</div>
+
+<script>
+    window.addEventListener('DOMContentLoaded', function () {
+        setTimeout(() => {
+            document.getElementById('ahmed-popup').style.display = 'block';
+        }, 1500);
+    });
+</script>
+
