@@ -1,0 +1,17 @@
+<?php
+
+$promos = [
+    '🔥 Deal of the Day: Free shipping on orders over $50!',
+    '💥 Buy 1 get 1 free on select items!',
+    '🚚 Orders ship within 24 hours!',
+    '🎁 Use code WELCOME10 for 10% off!',
+    '🕒 Limited-time offer ends tonight!'
+];
+
+$message = $promos[array_rand($promos)];
+?>
+
+<div style="padding: 10px; background: #fffae6; border: 1px dashed #ffc107; margin-bottom: 15px; text-align: center;">
+    <strong><?= $message ?></strong>
+</div>
+

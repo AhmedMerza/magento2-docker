@@ -2,6 +2,14 @@
       xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceBlock name="ahmed.popup" remove="true" />
+
+	 <referenceContainer name="content">
+            <block class="Magento\Framework\View\Element\Template"
+                   name="ahmed.popup.promo"
+                   template="Ahmed_Popup::promo.phtml"
+		    before="-"
+		    cacheable="false"/>
+        </referenceContainer>
     </body>
 </page>
 
